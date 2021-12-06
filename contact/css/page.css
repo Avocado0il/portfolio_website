@@ -1,0 +1,33 @@
+<div id="content"
+head {}
+
+h1 {
+  font-family: "helvetica";
+  color: white;
+  text-indent: "30px";
+}
+
+p {
+  font-family: "helvetica";
+  color: grey;
+  text-indent: "30px";
+}
+
+img {
+  width: 700px;
+}
+
+a {
+  font-family: "ariel";
+  color: white;
+}
+
+#content {
+  background-color: black;
+  width: 700px;
+  min-height: 40px;
+  padding: 40px;
+  margin: 100px;
+  border: solid 10px red;
+  font-size: 24px;
+}
