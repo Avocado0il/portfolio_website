@@ -2,25 +2,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/page.css">
+	<script src="contact/page.js"></script>
 </head>
 <body>
-
-
-
-
-		<h1>About</h1>
-			<div class = "AboutText">
-		    <p>text</p>
-		  </div>
+	<h1>Contact</h1>
+		<form onsubmit="return false"></form>
+		<input type="text" placeholder="Enter your last name" id="lastName" />
+		<br><br>
+		<input type="text" placeholder="Enter your first name" id="firstName" />
+		<input type="email" placeholder="Enter your email" id="email" />
+		<span>What is your question?</span>
+		<br>
+		<textarea id="question" rows="4"></textarea>
+		<br><br>
+		<button onclick="sendContact();">Send contact</button>
 
 
 	<ul>
 		<li><a class="active" href="https://Avocado0il.github.io/portfolio_website/index.html">Home</a></li>
-		<li><a class="active" href="https://Avocado0il.github.io/portfolio_website/about/index.html">About</a></li>
-		<li><a class="active" href="https://Avocado0il.github.io/portfolio_website/contact/index.html">Contact</a></li>
+		<li><a href="https://Avocado0il.github.io/portfolio_website/about/index.html">About</a></li>
+		<li><a href="https://Avocado0il.github.io/portfolio_website/contact/index.html">Contact</a></li>
 	</ul>
 </body>
 </html>
